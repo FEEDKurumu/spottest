@@ -1,6 +1,6 @@
 
 $.ajax({
-  url: "https://accounts.spotify.com/api/token",
+  url: "https://cors-anywhere.herokuapp.com/https://accounts.spotify.com/api/token",
   method: "POST",
   data: '{"grant_type":"client_credentials"}',
   beforeSend: function(xhr) {
